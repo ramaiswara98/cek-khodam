@@ -1,0 +1,258 @@
+[
+    {
+      "id": 1,
+      "name": "Kodham Wulung",
+      "description": "Jenis kodham yang dipercaya memiliki kekuatan gaib dan sering digunakan sebagai sarana untuk perlindungan diri."
+    },
+    {
+      "id": 2,
+      "name": "Kodham Sulaiman",
+      "description": "Dikatakan memiliki khasiat untuk meningkatkan kewibawaan dan ketegasan pemiliknya."
+    },
+    {
+      "id": 3,
+      "name": "Kodham Nogososro",
+      "description": "Konon bisa memberikan kekuatan dan perlindungan dari serangan gaib."
+    },
+    {
+      "id": 4,
+      "name": "Kodham Cinde",
+      "description": "Dipercaya bisa memberikan ketenangan batin dan meningkatkan kemampuan spiritual."
+    },
+    {
+      "id": 5,
+      "name": "Kodham Kalacakra",
+      "description": "Mampu melindungi dari bahaya fisik dan non-fisik, serta meningkatkan keberanian."
+    },
+    {
+      "id": 6,
+      "name": "Kodham Banyu Urip",
+      "description": "Diyakini memberikan energi positif dan membantu dalam menjaga kesehatan fisik dan mental."
+    },
+    {
+      "id": 7,
+      "name": "Kodham Merah Delima",
+      "description": "Terkenal karena dipercaya memiliki kekuatan luar biasa dalam hal keselamatan dan keberuntungan."
+    },
+    {
+      "id": 8,
+      "name": "Kodham Nogo Putih",
+      "description": "Konon memberikan kekuatan untuk mendeteksi dan melawan energi negatif."
+    },
+    {
+      "id": 9,
+      "name": "Kodham Pandan Wangi",
+      "description": "Dikenal dengan kemampuannya dalam memberikan ketenangan jiwa dan memperbaiki hubungan sosial."
+    },
+    {
+      "id": 10,
+      "name": "Kodham Mustika",
+      "description": "Umumnya digunakan untuk meningkatkan kepercayaan diri dan keberanian dalam menghadapi tantangan."
+    },
+    {
+      "id": 11,
+      "name": "Kodham Kendit",
+      "description": "Dipercaya memberikan kekuatan fisik dan daya tahan yang tinggi."
+    },
+    {
+      "id": 12,
+      "name": "Kodham Dewadaru",
+      "description": "Dikatakan mampu menolak bala dan memberikan perlindungan dari marabahaya."
+    },
+    {
+      "id": 13,
+      "name": "Kodham Semar Mesem",
+      "description": "Terkenal untuk daya tarik dan pesona, sering digunakan untuk memikat hati orang lain."
+    },
+    {
+      "id": 14,
+      "name": "Kodham Jaran Goyang",
+      "description": "Diyakini dapat mempengaruhi hati dan pikiran orang lain, sering digunakan untuk tujuan asmara."
+    },
+    {
+      "id": 15,
+      "name": "Kodham Mata Dewa",
+      "description": "Memberikan kekuatan batin dan kemampuan untuk melihat hal-hal gaib atau tersembunyi."
+    },
+    {
+      "id": 16,
+      "name": "Kodham Kala Cakra",
+      "description": "Mampu memberikan kekuatan untuk menghadapi musuh dan melindungi dari serangan gaib."
+    },
+    {
+      "id": 17,
+      "name": "Kodham Serat Jeruji",
+      "description": "Dipercaya mampu memberikan ketahanan dan perlindungan terhadap serangan fisik."
+    },
+    {
+      "id": 18,
+      "name": "Kodham Geni",
+      "description": "Dikatakan memiliki energi panas yang mampu menolak santet dan gangguan gaib lainnya."
+    },
+    {
+      "id": 19,
+      "name": "Kodham Lumut",
+      "description": "Memberikan ketenangan dan membantu dalam meditasi serta peningkatan spiritualitas."
+    },
+    {
+      "id": 20,
+      "name": "Kodham Ratu Kidul",
+      "description": "Diyakini memiliki hubungan dengan kekuatan laut selatan dan memberikan perlindungan serta kekuatan gaib."
+    },
+    {
+      "id": 21,
+      "name": "Kodham Biru Laut",
+      "description": "Memiliki kekuatan untuk melindungi pemiliknya dari ancaman dan marabahaya yang datang dari laut."
+    },
+    {
+      "id": 22,
+      "name": "Kodham Wahyu Tumurun",
+      "description": "Dikatakan mampu menarik keberkahan dan memberikan kemudahan dalam mencapai tujuan hidup."
+    },
+    {
+      "id": 23,
+      "name": "Kodham Alas Watu",
+      "description": "Memberikan kekuatan dan perlindungan saat berada di alam liar atau hutan."
+    },
+    {
+      "id": 24,
+      "name": "Kodham Sabrang",
+      "description": "Dipercaya mampu melindungi pemiliknya dari gangguan roh jahat atau makhluk halus."
+    },
+    {
+      "id": 25,
+      "name": "Kodham Kalimasada",
+      "description": "Dikenal dengan kekuatannya untuk menjaga dan memperkuat ikatan keluarga serta persahabatan."
+    },
+    {
+      "id": 26,
+      "name": "Kodham Pringgodani",
+      "description": "Diyakini memberikan kekuatan fisik dan keberanian dalam menghadapi musuh."
+    },
+    {
+      "id": 27,
+      "name": "Kodham Sukma Langgeng",
+      "description": "Memberikan ketenangan jiwa dan umur panjang."
+    },
+    {
+      "id": 28,
+      "name": "Kodham Manik Maya",
+      "description": "Dipercaya dapat memberikan kesuksesan dan keberuntungan dalam bisnis."
+    },
+    {
+      "id": 29,
+      "name": "Kodham Tunjung Biru",
+      "description": "Memberikan perlindungan dari energi negatif dan gangguan gaib."
+    },
+    {
+      "id": 30,
+      "name": "Kodham Megantara",
+      "description": "Diyakini memiliki kekuatan untuk mendatangkan hujan dan mengendalikan cuaca."
+    },
+    {
+      "id": 31,
+      "name": "Kodham Bumi Sari",
+      "description": "Memberikan kesuburan dan kelimpahan hasil bumi."
+    },
+    {
+      "id": 32,
+      "name": "Kodham Segara Wangi",
+      "description": "Dipercaya memberikan ketenangan batin dan melindungi dari marabahaya laut."
+    },
+    {
+      "id": 33,
+      "name": "Kodham Langit Biru",
+      "description": "Memberikan ketenangan pikiran dan keseimbangan emosional."
+    },
+    {
+      "id": 34,
+      "name": "Kodham Petir Sakti",
+      "description": "Diyakini memiliki kekuatan untuk melindungi dari bahaya petir dan energi listrik."
+    },
+    {
+      "id": 35,
+      "name": "Kodham Surya Kencana",
+      "description": "Memberikan kekuatan dan perlindungan dari energi matahari."
+    },
+    {
+      "id": 36,
+      "name": "Kodham Angin Putih",
+      "description": "Dipercaya memberikan kekuatan untuk mengendalikan angin dan cuaca."
+    },
+    {
+      "id": 37,
+      "name": "Kodham Bintang Timur",
+      "description": "Memberikan petunjuk dan bimbingan dalam menjalani kehidupan."
+    },
+    {
+      "id": 38,
+      "name": "Kodham Kencana Wungu",
+      "description": "Diyakini dapat menarik kekayaan dan kesejahteraan."
+    },
+    {
+      "id": 39,
+      "name": "Kodham Puspa Sari",
+      "description": "Memberikan pesona dan daya tarik alami."
+    },
+    {
+      "id": 40,
+      "name": "Kodham Purnama Sidi",
+      "description": "Dipercaya memberikan pencerahan dan kebijaksanaan."
+    },
+    {
+      "id": 41,
+      "name": "Kodham Bayu Sakti",
+      "description": "Memberikan kekuatan dan perlindungan dari gangguan angin."
+    },
+    {
+      "id": 42,
+      "name": "Kodham Mega Mendung",
+      "description": "Dipercaya dapat mengendalikan hujan dan badai."
+    },
+    {
+      "id": 43,
+      "name": "Kodham Surya Nata",
+      "description": "Memberikan kekuatan untuk mengendalikan energi matahari."
+    },
+    {
+      "id": 44,
+      "name": "Kodham Dewi Sri",
+      "description": "Dipercaya membawa kesuburan dan kemakmuran."
+    },
+    {
+      "id": 45,
+      "name": "Kodham Watu Ireng",
+      "description": "Memberikan kekuatan dan ketahanan fisik."
+    },
+    {
+      "id": 46,
+      "name": "Kodham Jalu Manggung",
+      "description": "Dipercaya memberikan keberanian dan keteguhan hati."
+    },
+    {
+      "id": 47,
+      "name": "Kodham Pusaka Langit",
+      "description": "Memberikan petunjuk dan perlindungan dari kekuatan gaib."
+    },
+    {
+      "id": 48,
+      "name": "Kodham Tirta Amerta",
+      "description": "Dipercaya dapat memberikan kesehatan dan penyembuhan."
+    },
+    {
+      "id": 49,
+      "name": "Kodham Wulan Tumanggal",
+      "description": "Memberikan pencerahan dan peningkatan spiritual."
+    },
+    {
+      "id": 50,
+      "name": "Kodham Manik Kencana",
+      "description": "Dipercaya dapat menarik kekayaan dan kemakmuran."
+    },
+    {
+        "id": 51,
+        "name": "Tidak Ada Khodam",
+        "description": "Sepertinya Kamu tidak memiliki khodam"
+      }
+  ]
+  

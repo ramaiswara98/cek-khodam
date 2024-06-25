@@ -1,0 +1,44 @@
+input[type=text]:focus {
+    border: 2px solid #EF4444;
+    outline: none;
+  }
+
+  .input-nama{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .form{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    padding: 10px;
+  }
+
+  .form-container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .card-cos{
+    background-image: url('../assets//bg-card.png');
+    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+
+  .txt-bg{
+    background-color: rgba(255, 222, 89, 0.6);
+  }
+
+  .shd{
+    box-shadow:  10px 10px 0px 0px rgba(0, 0, 0, 0.6);
+  }
+
+  .don-card{
+    background-color: rgba(0, 0, 0, 0.3);
+  }
