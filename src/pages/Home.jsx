@@ -98,7 +98,7 @@ function Home() {
         <>
         <div className='w-96 bg-white rounded-md p-4 flex flex-col justify-center items-center card-cos mt-4' ref={elementRef}>
         <h1 className='text-sm font-bold text-white mb-4'>Khodam <span className='underline'>{nama}</span> adalah..</h1>
-        <img src={'../src/assets/khodam/'+khodam.id+'.jpeg'} style={{width:72,height:72}}/>
+        <img src={'/images/khodam/'+khodam.id+'.jpeg'} style={{width:72,height:72}}/>
         <h1 className='text-2xl font-bold text-white'>{khodam.name}</h1>
         <p className='text-white'>{khodam.description}</p>
         <div>
@@ -106,8 +106,8 @@ function Home() {
         </div>
         </div>
         <div className='flex flex-row gap-2'>
-        <button className='bg-red-500 py-2 px-4 rounded-lg text-white mt-3 flex flex-row gap-1 items-center' onClick={()=>{setNama('');setKhodam(null)}}><img src='../src/assets/magic.png' width={16}/>Coba Nama Lain</button>
-        <button className='bg-red-500 py-2 px-4 rounded-lg text-white mt-3 flex flex-row gap-1 items-center' onClick={()=>{htmlToImageConvert()}}><img src='../src/assets/download-circular-button.png' width={16}/>Download</button>  
+        <button className='bg-red-500 py-2 px-4 rounded-lg text-white mt-3 flex flex-row gap-1 items-center' onClick={()=>{setNama('');setKhodam(null)}}><img src='/images/magic.png' width={16}/>Coba Nama Lain</button>
+        <button className='bg-red-500 py-2 px-4 rounded-lg text-white mt-3 flex flex-row gap-1 items-center' onClick={()=>{htmlToImageConvert()}}><img src='/images/download-circular-button.png' width={16}/>Download</button>  
         </div>
         </>
     ):(<>
@@ -117,12 +117,12 @@ function Home() {
         <p className='font-bold text-sm p-1'>Masukkan Nama Kamu</p>
         <input type='text' style={{borderColor:'#EF4444'}} className='py-2 mr-8 border-2 px-2 rounded-lg border-red-57 ' name='nama' value={nama} onChange={(e)=>{setNama(e.target.value)}} placeholder='Abe'/> 
         </div>
-       <button className='bg-red-500 py-2 px-4 rounded-lg text-white flex flex-row items-center gap-1' onClick={cekOnClick}><img src='../src/assets/magic.png' width={16}/>Cek</button>
+       <button className='bg-red-500 py-2 px-4 rounded-lg text-white flex flex-row items-center gap-1' onClick={cekOnClick}><img src='/images/magic.png' width={16}/>Cek</button>
        </div>
     </div>
         {loading?(
             <div className='flex flex-col justify-center items-center'>
-            <img src='../src/assets/loading.gif' style={{width:92}}/>
+            <img src='/images/loading.gif' style={{width:92}}/>
             <p className='text-white'>Sedang mengecek khodam mu... </p>
             </div>
         ):(<></>)}
@@ -137,11 +137,11 @@ function Home() {
         <p className='text-white'>Made with ❤ by</p>
         <div className='flex flex-row gap-5 mt-3'>
             <div className='flex flex-row gap-1 items-center'>
-                <img src='../src/assets/instagram.png'/>
+                <img src='/images/instagram.png'/>
                 <p className='text-white'>rama_iswara7</p>
             </div>
             <div className='flex flex-row gap-1 items-center'>
-                <img src='../src/assets/tiktok.png'/>
+                <img src='/images/tiktok.png'/>
                 <p className='text-white'>rama_iswara7</p>
             </div>
         </div>

@@ -12,7 +12,8 @@ function Donasi() {
     const getHistory = async() => {
         const headers = {
             header:{
-                Key:'trapi-dVnrZcFHmrIzFjRv1A3nNRxJ'
+                'key':'trapi-dVnrZcFHmrIzFjRv1A3nNRxJ',
+                'X-Requested-With':'XMLHttpRequest'
             }
         }
         await axios.get('https://api.trakteer.id/v1/public/supports?limit=10&page='+currentPage, {headers}).then((res)=>{
