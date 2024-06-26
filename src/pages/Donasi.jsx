@@ -73,10 +73,13 @@ function Donasi() {
 
                 return(
                     <div key={donatur.updated_at} className='flex flex-col justify-center items-center mt-4'>
-                        <div className='rounded-md w-[400px] p-2 don-card flex flex-col justify-start items-start'>
-                            <p className='text-white text-sm text-left flex flex-row gap-1'><img src={'/images/rank/'+rank+'.png'} width={'18px'}/><span className='font-bold'>{donatur.supporter_name}</span> mentraktir {donatur.quantity} Kopikap senilai Rp.{donatur.amount}</p>
+                        <div className='rounded-md w-72 sm:w-[400px] p-2 don-card flex flex-col justify-start items-start'>
+                            <div className='text-white text-sm text-left flex flex-row gap-1 justify-center items-start'>
+                            <img src={'/images/rank/'+rank+'.png'} className='sm:w-5 sm:h-5 w-5 h-5'/><p ><span className='font-bold'>{donatur.supporter_name}</span> mentraktir {donatur.quantity} Kopikap senilai Rp.{donatur.amount}</p>
+                            </div>
                             
-                            <p className='relative mt-2 text-sm border-2 bg-white text-gray-800 border-white/30 rounded-tl-none rounded-tr-lg rounded-br-lg rounded-bl-lg px-3 py-2 w-fit text-left'>{donatur.support_message}</p>
+                            
+                            <p className='relative mt-2 ml-5 text-sm border-2 bg-white text-gray-800 border-white/30 rounded-tl-none rounded-tr-lg rounded-br-lg rounded-bl-lg px-3 py-2 w-fit text-left'>{donatur.support_message}</p>
                         </div>
                     </div>
                 )

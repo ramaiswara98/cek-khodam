@@ -88,7 +88,7 @@ function Home() {
 
   return (
 
-    <div className='flex justify-center flex-col items-center mt-28'>
+    <div className='flex justify-center flex-col items-center sm:mt-28 bgs'>
     <div className='flex flex-col justify-center items-start mb-3'>
     <h1 className='text-5xl font-bold text-white font-custom text-red-500'>Cek Khodam</h1>
     <p className='text-white font-sans'>by @rama_iswara7</p>
@@ -96,7 +96,7 @@ function Home() {
     
     {khodam ? (
         <>
-        <div className='w-96 bg-white rounded-md p-4 flex flex-col justify-center items-center card-cos mt-4' ref={elementRef}>
+        <div className='w-72 sm:w-96  rounded-md p-4 flex flex-col justify-center items-center card-cos mt-4' ref={elementRef}>
         <h1 className='text-sm font-bold text-white mb-4'>Khodam <span className='underline'>{nama}</span> adalah..</h1>
         <img src={'/images/khodam/'+khodam.id+'.jpeg'} style={{width:72,height:72}}/>
         <h1 className='text-2xl font-bold text-white'>{khodam.name}</h1>
@@ -105,19 +105,19 @@ function Home() {
             
         </div>
         </div>
-        <div className='flex flex-row gap-2'>
+        <div className='flex flex-col sm:flex-row gap-2'>
+        <button className='bg-red-500 py-2 px-4 rounded-lg text-white mt-3 flex flex-row gap-1 items-center justify-center' onClick={()=>{htmlToImageConvert()}}><img src='/images/download-circular-button.png' width={16}/>Download</button>  
         <button className='bg-red-500 py-2 px-4 rounded-lg text-white mt-3 flex flex-row gap-1 items-center' onClick={()=>{setNama('');setKhodam(null)}}><img src='/images/ball.png' width={16}/>Coba Nama Lain</button>
-        <button className='bg-red-500 py-2 px-4 rounded-lg text-white mt-3 flex flex-row gap-1 items-center' onClick={()=>{htmlToImageConvert()}}><img src='/images/download-circular-button.png' width={16}/>Download</button>  
-        </div>
+       </div>
         </>
     ):(<>
-    <div className='bg-white rounded-lg items-center justify-center flex w-96 p-4 mt-2 shd' id='form'>
-        <div className='form'>
+    <div className='bg-white rounded-lg items-center justify-center flex w-72 p-4 mt-2 sm:w-96' id='form'>
+        <div className='form flex sm:flex-row flex-col items-star sm:items-end justify-center sm:align-middle gap-3 sm:gap-0'>
         <div className='input-nama'>
         <p className='font-bold text-sm p-1'>Masukkan Nama Kamu</p>
-        <input type='text' style={{borderColor:'#EF4444'}} className='py-2 mr-8 border-2 px-2 rounded-lg border-red-57 ' name='nama' value={nama} onChange={(e)=>{setNama(e.target.value)}} placeholder='Abe'/> 
+        <input type='text' style={{borderColor:'#EF4444'}} className='py-2 sm:mr-8 border-2 px-2 rounded-lg border-red-57 ' name='nama' value={nama} onChange={(e)=>{setNama(e.target.value)}} placeholder='Abe'/> 
         </div>
-       <button className='bg-red-500 py-2 px-4 rounded-lg text-white flex flex-row items-center gap-1' onClick={cekOnClick}><img src='/images/ball.png' width={16}/>Cek</button>
+       <button className='bg-red-500 py-2 px-4 rounded-lg text-white flex flex-row items-center justify-center gap-1' onClick={cekOnClick}><img src='/images/ball.png' width={16}/>Cek</button>
        </div>
     </div>
         {loading?(
@@ -130,12 +130,12 @@ function Home() {
 
     </>)}
     <div className='flex flex-col items-center justify-center gap-4 mt-10'>
-        <button className='bg-red-500 py-2 px-4 rounded-lg text-white flex flex-row items-center gap-1 mt-9' onClick={()=>{window.location.href="https://trakteer.id/rama_iswara7/tip"}}><img src='https://cdn.trakteer.id/images/embed/trbtn-icon.png' style={{width:12}}/>Donasi di Trakteer</button>
+        <button className='bg-red-500 py-2 px-4 rounded-lg text-white flex flex-row items-center gap-1 mt-9' onClick={()=>{window.location.href="https://trakteer.id/rama_iswara7/tip"}}><img src='https://cdn.trakteer.id/images/embed/trbtn-icon.png' style={{width:12}} className='animate-bounce'/>Donasi di Trakteer</button>
         <p className='text-white underline cursor-pointer' onClick={()=>{window.location.href='/list-donasi'}}>Lihat siapa aja yang udah donasi 😁 </p>
     </div>
     <div className='flex flex-col justify-center items-center mt-12'>
         <p className='text-white'>Made with ❤ by</p>
-        <div className='flex flex-row gap-5 mt-3'>
+        <div className='flex flex-col sm:flex-row gap-5 mt-3'>
             {/* <div className='flex flex-row gap-1 items-center'>
                 <img src='/images/instagram.png' className='bg-white rounded-xl border'/>
                 <p className='text-white'>rama_iswara7</p>
