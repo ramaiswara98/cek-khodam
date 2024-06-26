@@ -45,17 +45,43 @@ function Home() {
         
     }
     const htmlToImageConvert = () => {
+        const padding = 20; // Adjust the padding as needed
+      
         toPng(elementRef.current, { cacheBust: false })
           .then((dataUrl) => {
-            const link = document.createElement("a");
-            link.download = "cek-khodam.png";
-            link.href = dataUrl;
-            link.click();
+            const img = new Image();
+            img.src = dataUrl;
+            img.onload = () => {
+              const canvas = document.createElement("canvas");
+              const context = canvas.getContext("2d");
+      
+              // Set canvas dimensions with padding
+              canvas.width = img.width + padding * 2;
+              canvas.height = img.height + padding * 2;
+      
+              // Fill the canvas with a white background (or any color you prefer)
+              context.fillStyle = "#ffffff";
+              context.fillRect(0, 0, canvas.width, canvas.height);
+      
+              // Draw the image onto the canvas with padding
+              context.drawImage(img, padding, padding);
+      
+              // Convert the canvas to a data URL
+              const newDataUrl = canvas.toDataURL("image/png");
+      
+              // Create a link to download the image
+              const link = document.createElement("a");
+              link.download = "cek-khodam.png";
+              link.href = newDataUrl;
+              link.click();
+            };
           })
           .catch((err) => {
             console.log(err);
           });
       };
+      
+      
 
     const checkFirebase = async(newnama) => {
         const db = getFirestore(app);
@@ -89,14 +115,14 @@ function Home() {
   return (
 
     <div className='flex justify-center flex-col items-center sm:mt-28 bgs'>
-    <div className='flex flex-col justify-center items-start mb-3'>
+    <div className='flex flex-col justify-center items-start mb-8'>
     <h1 className='text-5xl font-bold text-white font-custom text-red-500'>Cek Khodam</h1>
     <p className='text-white font-sans'>by @rama_iswara7</p>
     </div>
     
     {khodam ? (
         <>
-        <div className='w-72 sm:w-96  rounded-md p-4 flex flex-col justify-center items-center card-cos mt-4' ref={elementRef}>
+        <div className='w-72 sm:w-96  rounded-md p-4 flex flex-col justify-center items-center card-cos' ref={elementRef}>
         <h1 className='text-sm font-bold text-white mb-4'>Khodam <span className='underline'>{nama}</span> adalah..</h1>
         <img src={'/images/khodam/'+khodam.id+'.jpeg'} style={{width:72,height:72}}/>
         <h1 className='text-2xl font-bold text-white'>{khodam.name}</h1>
