@@ -162,17 +162,13 @@ function Home() {
     <div className='flex flex-col justify-center items-center mt-12'>
         <p className='text-white'>Made with ❤ by</p>
         <div className='flex flex-col sm:flex-row gap-5 mt-3'>
-            {/* <div className='flex flex-row gap-1 items-center'>
-                <img src='/images/instagram.png' className='bg-white rounded-xl border'/>
-                <p className='text-white'>rama_iswara7</p>
-            </div> */}
             <div className='flex flex-row gap-1 items-center'>
                 <img src='/images/tiktok.png' className='bg-white rounded-xl border'/>
                 <p className='text-white'>@cekkhodam.pro</p>
             </div>
             <div className='flex flex-row gap-1 items-center'>
                 <img src='/images/tiktok.png' className='bg-white rounded-xl border'/>
-                <p className='text-white'>rama_iswara7</p>
+                <p className='text-white'>@rama_iswara7</p>
             </div>
             
         </div>
